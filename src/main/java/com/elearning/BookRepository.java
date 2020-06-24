@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.elearning;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
