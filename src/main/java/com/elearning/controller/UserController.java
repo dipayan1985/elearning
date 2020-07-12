@@ -1,4 +1,4 @@
-package com.elearning;
+package com.elearning.controller;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.elearning.error.ResourceNotFoundException;
+import com.elearning.model.User;
+import com.elearning.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/v1")

@@ -1,7 +1,7 @@
 package com.eleearning;
 
-import com.elearning.Book;
-import com.elearning.BookRepository;
+import com.elearning.model.Book;
+import com.elearning.repository.BookRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;

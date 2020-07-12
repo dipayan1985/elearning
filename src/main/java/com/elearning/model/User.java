@@ -1,4 +1,4 @@
-package com.elearning;
+package com.elearning.model;
 
 import java.util.Date;
 
@@ -50,7 +50,7 @@ public class User {
 	@LastModifiedBy
 	private String updatedBy;
 
-	public long gerId() {
+	public long getId() {
 		return id;
 	}
 

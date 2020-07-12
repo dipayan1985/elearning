@@ -1,4 +1,4 @@
-package com.elearning;
+package com.elearning.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.elearning.error.BookNotFoundException;
 import com.elearning.error.BookUnSupportedFieldPatchException;
+import com.elearning.model.Book;
+import com.elearning.repository.BookRepository;
 
 import java.util.List;
 import java.util.Map;

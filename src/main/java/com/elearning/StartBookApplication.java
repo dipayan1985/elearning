@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
+import com.elearning.model.User;
+import com.elearning.repository.UserRepository;
+
 @SpringBootApplication
 public class StartBookApplication {
 
@@ -25,6 +28,7 @@ public class StartBookApplication {
 			User user = new User();
 			user.setFirstName("Rizma");
 			user.setLastName("Begam");
+			user.setId(1001);
 			user.setCreatedAt(new Date());
 			user.setEmail("test");
 			user.setCreatedBy("test");
